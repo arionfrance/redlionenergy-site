@@ -1,0 +1,149 @@
+:root {
+    --global-text-font-size: 15px;
+    --global-title-font-size: 52px;
+    --global-background-color-button: #D94646;
+    --footer-background-color: #0D0D0D;
+    --global-address-font-size: 30px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main .section-1 {
+    width: 100%;
+    height: 660px;
+    display: flex;
+}   
+.main .section-1 .text {
+    width: 50%;
+    margin: 0 auto;
+    background: #12111B;
+}
+.main .section-1 .text {
+    color: #FFF;  
+    padding-top: 100px;
+    margin: 0 auto;
+}
+.section-1 .text .title {
+    font-size: var(--global-title-font-size);
+    margin: 0 auto;
+    width: 80%;
+}
+.section-1 .text p {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 12.5px;
+    line-height: 1.6;
+}
+.section-1 .text button, .section-2 .text button, .section-3 .text button {
+    height: 45px;
+    width: 170px;
+    border: 0;
+    color: #FFF;
+    background: var(--global-background-color-button);
+    font-size: var(--global-text-font-size);
+    cursor: pointer;
+}
+
+.main .section-1 .img {
+    width: 50%;
+    height: 660px;
+    background: url("/src/img/section-1.jpg");
+    background-size: cover;
+}
+
+.main .section-2 {
+    width: 100%;
+    height: 660px;
+    display: flex;
+}
+.main .section-2 .img {
+    width: 50%;
+    height: 660px;
+    background: url("/src/img/section-2.jpg");
+    background-size: cover;
+}
+
+.main .section-2 .text, .section-3 .text {
+    width: 50%;
+    padding-top: 100px;
+}
+.section-2 .text .title, .section-3 .text .title {
+    font-size: var(--global-title-font-size);
+    width: 80%;
+    margin: 0 auto;
+}
+.section-2 .text .little-title, .section-3 .text .little-title {
+    font-size: var(--global-text-font-size);
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+.section-2 .text p, .section-3 .text p {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 12.5px;
+    line-height: 1.6;
+    font-size: var(--global-text-font-size);
+}
+
+.section-3 {
+    display: flex;
+    background :#F2F3F5;
+    padding-bottom: 50px;
+}
+
+.section-3 .text .little-title {
+    text-transform: uppercase;
+}
+.section-3 button {
+    text-transform: uppercase;
+}
+.section-3 p:first-child {
+    margin: 0;
+    padding: 0;
+}
+.section-3 video {
+    padding-top: 100px;
+}
+
+.section-4 {
+    background: #000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.section-4 .img {
+    height: 660px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.section-4 .img-1 {
+    width: 30%;
+    height: 600px;
+    background: url("/src/img/section-4_1.jpg");
+    background-size: cover;
+}
+.section-4 .img-2 {
+    width: 30%;
+    height: 600px;
+    background: url("/src/img/section-4_2.jpg");
+    background-size: cover;
+}
+
+.section-4 .text {
+    display: block;
+    text-align: center;
+}
+.section-4 .text button {
+    height: 51px;
+    color: #FFF;
+    background: var(--global-background-color-button);
+    font-size: var(--global-text-font-size);
+    text-transform: uppercase;
+    border: 0;
+    cursor: pointer;
+    padding: 5px 25px;
+}
