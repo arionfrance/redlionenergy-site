@@ -4,6 +4,7 @@
     --global-background-color-button: #D94646;
     --footer-background-color: #0D0D0D;
     --global-address-font-size: 30px;
+    --global-font-family: Arial, sans-serif;
 }
 
 body {
@@ -146,4 +147,118 @@ body {
     border: 0;
     cursor: pointer;
     padding: 5px 25px;
+}
+
+.section-5 {
+    background: #12111B;
+    padding: 50px 0 50px 0;
+}
+.section-5 .text {
+    text-align: center;
+    color: #FFF;
+}
+.section-5 h5 {
+    margin-top: 0;
+    padding-top: 25px;
+    font-size: 15px;
+}
+.section-5 h1 {
+    font-size: var(--global-title-font-size);
+}
+.section-5 .img {
+    display: flex;
+    justify-content: space-evenly;
+}
+.section-5 .img img {
+    width: 30%;
+    background-size: cover;
+    background-position: center;
+}
+.section-5 .bloc {
+    color: #FFF;
+    background-color: var(--global-background-color-button);
+    width: 300px;
+    border-radius: 20px;
+    padding: 25px;
+    text-align: center;
+}
+.section-5 .bloc .little-title {
+    text-transform: uppercase;
+    font-size: 22px;
+}
+.section-5 .bloc p {
+    line-height: 1.6;
+}
+.section-5 .bloc button {
+    border: 1px solid #FFF;
+    background: var(--global-background-color-button);
+    color: #FFF;
+    box-shadow: 0 0 10px #FFF;
+    border-radius: 10px;
+    padding: 25px;
+    cursor: pointer;
+}
+.section-6 {
+    background: #F2F3F5;
+}
+.section-6 .img {
+    padding-top: 50px;
+    text-align: center;
+}
+.section-6 .img img {
+    height: 560px;
+}
+.section-6 .text address {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+.section-6 form {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.section-6 .title {
+    font-size: 22px;
+    text-transform: uppercase;
+    padding-top: 25px;
+}
+.section-6 form input {
+    width: 65%;
+    height: 25px;
+    border: 0;
+    outline: none;
+    padding: 10px;
+}
+.section-6 form textarea {
+    max-width: 65%;
+    min-width: 65%;
+    border: 0;
+    padding: 10px;
+    max-height: 300px;
+    min-height: 300px;
+    outline: none;
+    font-family: var(--global-font-family);
+}
+.section-6 form button {
+    margin-top: 25px;
+    background: var(--global-background-color-button);
+    color: #FFF;
+    height: 40px;
+    padding: 12.5px 20px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+footer {
+    text-align: center;
+    color: #FFF;
+    background: var(--footer-background-color);
+}
+footer a {
+    color: #FFF;
+}
+footer p {
+    margin: 0;
+    padding: 25px 0;
+    font-size: 15px;
 }
