@@ -1,3 +1,6 @@
+::-webkit-scrollbar {
+    display: none;
+}
 :root {
     --global-text-font-size: 15px;
     --global-title-font-size: 52px;
@@ -47,6 +50,7 @@ body {
     background: var(--global-background-color-button);
     font-size: var(--global-text-font-size);
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .main .section-1 .img {
@@ -147,6 +151,7 @@ body {
     border: 0;
     cursor: pointer;
     padding: 5px 25px;
+    border-radius: 10px;
 }
 
 .section-5 {
